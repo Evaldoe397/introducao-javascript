@@ -1,0 +1,80 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400; 
+    font-size: 32px;
+    line-height: 150%;    
+}
+
+
+body {
+    background-color: #f3f5fc; 
+}
+
+.main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.input-texto {
+    margin-top: 31px;
+    border-radius: 5px;
+}
+
+.mensagem {
+    position: fixed;
+    margin-top: 30px;
+    margin-left: 90px;
+    background-image: url("Boneco.png");
+    background-repeat: no-repeat;
+    border-radius: 5px;
+
+}
+
+.informacao {
+    margin-top: 1px;
+    font-size: 15px;
+}
+
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2px;    
+}
+
+.encriptar{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: darkblue;
+    color:white;
+    cursor: pointer;
+    transition: 1s all;
+    }
+
+.encriptar:hover{
+        background: darkblue ;
+        transform: scale(1.1);
+}
+
+
+.desencriptar{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: darkblue;
+    color:white;
+    cursor: pointer;
+    transition: 1s all;
+    color:white;
+    margin-left: 30px; 
+    }
+
+.desencriptar:hover{
+        background: darkblue ;
+        transform: scale(1.1);
+}    
+
+
+
